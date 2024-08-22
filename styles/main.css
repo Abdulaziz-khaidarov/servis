@@ -1,0 +1,36 @@
+.main {
+    grid-area: main;
+    gap: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid transparent;
+
+}
+
+.h1 {
+    font-family: Comic Sans MS;
+
+}
+
+.moto {
+    width: 75%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 37px;
+    padding: 10px;
+    background-color: rgb(29, 26, 26);
+}
+
+img {
+    height: 280px;
+    width: 100%;
+}
+
+.proect {
+    width: 85%;
+    height: 281px;
+    border: 2px solid transparent;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}

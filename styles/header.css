@@ -1,0 +1,44 @@
+.header {    
+    border: 2px solid rgb(130, 121, 121);
+    background-color: black;
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+
+}
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.imgLogo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+a {
+    color: rgb(203, 200, 200);
+
+    text-decoration: none;
+    font-family: Monotype Corsiva;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.text1 {
+    border: 2px solid transparent;
+    transition: 2s;
+}
+
+.text1:hover a {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
