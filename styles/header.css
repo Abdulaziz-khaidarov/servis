@@ -1,44 +1,46 @@
 .header {    
     border: 2px solid rgb(130, 121, 121);
-    background-color: black;
+    background: black;
     grid-area: header;
     display: flex;
     justify-content: space-around;
+    display: grid;
+    grid-template-columns: 20% 80%;
 
 }
-.img {
-    width: 80px;
+
+
+.header img {
     height: 80px;
     border-radius: 50%;
-}
-
-.imgLogo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-a {
-    color: rgb(203, 200, 200);
-
-    text-decoration: none;
-    font-family: Monotype Corsiva;
-
 }
 
 .menu {
+      
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    
 
 }
 
-.text1 {
+.menu a {
+    color: rgb(203, 200, 200);
+    text-decoration: none;
+    font-family: Monotype Corsiva;
+    padding: 15px 45px 15px 45px;
+}
+
+.menu .menu__title:hover {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px whitesmoke;
+   
+}
+
+
+.menu__title {
+    font-size: x-large;
     border: 2px solid transparent;
-    transition: 2s;
-}
-
-.text1:hover a {
-
-    background-color: rgb(255, 255, 255);
-    color: black;
+    transition: all 0.4s;
 }
