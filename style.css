@@ -13,6 +13,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-repeat: no-repeat;
 }
+
 .container {
     display: grid;
     grid-template-rows: 15% 1fr 15%;
@@ -22,5 +23,5 @@ body {
         "footer"
     ;
     height: 100vh;
-    gap: 10px;
+
 }
